@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const link = document.createElement('a');
             link.href = 'assets/resume.pdf';
-            link.download = 'Krishna_Prasath_AI_Resume.pdf';
+            link.download = 'resume.pdf';
             link.click();
         });
     }
